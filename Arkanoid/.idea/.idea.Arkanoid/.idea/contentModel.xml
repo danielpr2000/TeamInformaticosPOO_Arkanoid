@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\HP\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\HP\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Arkanoid.-1365660437.00" t="ExcludeRecursive" />
-    <e p="C:\Users\HP\OneDrive\Escritorio\Arkanoid\Arkanoid" t="IncludeFlat">
+    <e p="C:\Users\HP\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Arkanoid.658853455.00" t="ExcludeRecursive" />
+    <e p="C:\Users\HP\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid" t="IncludeFlat">
       <e p="Arkanoid" t="IncludeRecursive">
+        <e p="242px-Diego_Nuñez_Berrospi.jpg" t="Include" />
         <e p="App.config" t="Include" />
         <e p="Arkanoid.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
