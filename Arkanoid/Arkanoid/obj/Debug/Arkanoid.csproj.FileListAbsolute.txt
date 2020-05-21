@@ -6,3 +6,12 @@ C:\Users\HP\OneDrive\Escritorio\Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Pr
 C:\Users\HP\OneDrive\Escritorio\Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.GenerateResource.cache
 C:\Users\HP\OneDrive\Escritorio\Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe
 C:\Users\HP\OneDrive\Escritorio\Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.pdb
+C:\Users\hp\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\bin\Debug\Arkanoid.exe.config
+C:\Users\hp\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\bin\Debug\Arkanoid.exe
+C:\Users\hp\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\bin\Debug\Arkanoid.pdb
+C:\Users\hp\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Properties.Resources.resources
+C:\Users\hp\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe
+C:\Users\hp\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.pdb
+C:\Users\hp\Desktop\ProyectoPOO\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\bin\Debug\242px-Diego_Nuñez_Berrospi.jpg

@@ -29,12 +29,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             this.components = new System.ComponentModel.Container();
+            this.tmrMoving = new System.Windows.Forms.Timer(this.components);
+            this.tmrBall = new System.Windows.Forms.Timer(this.components);
+            this.SuspendLayout();
+            // 
+            // tmrMoving
+            // 
+            this.tmrMoving.Enabled = true;
+            this.tmrMoving.Tick += new System.EventHandler(this.tmrMoving_Tick);
+            // 
+            // tmrBall
+            // 
+            this.tmrBall.Enabled = true;
+            this.tmrBall.Tick += new System.EventHandler(this.tmrBall_Tick);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(720, 661);
+            this.DoubleBuffered = true;
+            this.Name = "Form1";
+            this.Text = "Game";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.ResumeLayout(false);
         }
 
         #endregion
+        private System.Windows.Forms.Timer tmrBall;
+        private System.Windows.Forms.Timer tmrMoving;
     }
 }
