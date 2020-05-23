@@ -1,0 +1,26 @@
+[33mcommit 884d2ad841ed627c65b874b831d584c43d74034a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 9010b5d 51dc8c9
+Author: F70443969 <54407072+F70443969@users.noreply.github.com>
+Date:   Wed May 20 18:42:15 2020 -0600
+
+    Merge pull request #1 from F70443969/recursos
+    
+    adding rss
+
+[33mcommit 51dc8c9c9b3287e88be35a989a8bc116317d3f22[m
+Author: F70443969 <54407072+F70443969@users.noreply.github.com>
+Date:   Wed May 20 18:34:25 2020 -0600
+
+    adding rss
+
+[33mcommit 9010b5ddf8b38d630e10157db7f08a6a827d9ea3[m
+Author: danielpr2000 <00365918@uca.edu.sv>
+Date:   Wed May 20 13:37:35 2020 -0600
+
+    Solucion de programa
+
+[33mcommit c877a5841a0b2ac019bae067d26ffe1c9a66de80[m
+Author: danielpr2000 <54407623+danielpr2000@users.noreply.github.com>
+Date:   Mon May 11 11:18:13 2020 -0600
+
+    Initial commit
