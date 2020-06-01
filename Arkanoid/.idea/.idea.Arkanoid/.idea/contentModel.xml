@@ -18,7 +18,9 @@
           <e p="AssemblyInfo.cs" t="Include" />
           <e p="Recursos" t="Include">
             <e p="ball.png" t="Include" />
+            <e p="fondo_arkanoid.jpg" t="Include" />
             <e p="Heart.png" t="Include" />
+            <e p="logo arkanoid.jpg" t="Include" />
             <e p="Player.png" t="Include" />
             <e p="Tile - black.png" t="Include" />
             <e p="Tile - blinded broken.png" t="Include" />
