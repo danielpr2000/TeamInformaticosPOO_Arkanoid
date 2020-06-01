@@ -63,7 +63,7 @@ namespace Arkanoid
             //
             //
             //Ball
-            e.Graphics.DrawImage(new Bitmap("pngwing.com(7).png"), _x_Ball, _y_Ball, 10,10);
+            e.Graphics.DrawImage(new Bitmap("242px-Diego_Nuñez_Berrospi.jpg"), _x_Ball, _y_Ball, 10,10);
             //
             //
         }

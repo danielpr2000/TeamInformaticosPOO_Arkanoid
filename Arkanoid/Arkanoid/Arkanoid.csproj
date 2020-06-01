@@ -54,6 +54,9 @@
         </Compile>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <EmbeddedResource Include="Form1.resx">
+          <DependentUpon>Form1.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -80,8 +83,20 @@
       <Content Include="242px-Diego_Nuñez_Berrospi.jpg">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-      <Content Include="Player.png" />
-      <Content Include="Properties\pngwing.com (7).png" />
+      <Content Include="Properties\Recursos\Heart.png" />
+      <Content Include="Properties\Recursos\Player.png" />
+      <Content Include="Properties\Recursos\ball.png" />
+      <Content Include="Properties\Recursos\Tile - black.png" />
+      <Content Include="Properties\Recursos\Tile - blinded broken.png" />
+      <Content Include="Properties\Recursos\Tile - blinded.png" />
+      <Content Include="Properties\Recursos\Tile - green.png" />
+      <Content Include="Properties\Recursos\Tile - light yellow.png" />
+      <Content Include="Properties\Recursos\Tile - lightblue.png" />
+      <Content Include="Properties\Recursos\Tile - mint.png" />
+      <Content Include="Properties\Recursos\Tile - pink.png" />
+      <Content Include="Properties\Recursos\Tile - red.png" />
+      <Content Include="Properties\Recursos\Tile - violet.png" />
+      <Content Include="Properties\Recursos\Tile - yellow.png" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
