@@ -32,6 +32,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tmrMoving = new System.Windows.Forms.Timer(this.components);
             this.tmrBall = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
@@ -51,6 +53,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(720, 661);
             this.DoubleBuffered = true;
             this.Name = "Form1";

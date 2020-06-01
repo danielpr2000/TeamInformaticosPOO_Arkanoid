@@ -24,3 +24,4 @@ C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\o
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.GenerateResource.cache
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.pdb
+C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Form1.resources
