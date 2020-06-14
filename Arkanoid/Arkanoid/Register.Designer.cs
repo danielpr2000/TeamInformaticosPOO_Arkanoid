@@ -36,7 +36,6 @@ namespace Arkanoid
             this.lblUsername = new System.Windows.Forms.Label();
             this.tlpRegister = new System.Windows.Forms.TableLayoutPanel();
             this.lblRegister = new System.Windows.Forms.Label();
-            this.txtUsername = new System.Windows.Forms.TextBox();
             this.btnRegister = new System.Windows.Forms.Button();
             this.tlpRegister.SuspendLayout();
             this.SuspendLayout();
@@ -46,7 +45,7 @@ namespace Arkanoid
             this.lblUsername.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblUsername.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.lblUsername.ForeColor = System.Drawing.Color.White;
+            this.lblUsername.ForeColor = System.Drawing.Color.Maroon;
             this.lblUsername.Location = new System.Drawing.Point(3, 274);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(403, 392);
@@ -67,7 +66,6 @@ namespace Arkanoid
                 new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlpRegister.Controls.Add(this.btnRegister, 0, 2);
             this.tlpRegister.Controls.Add(this.lblUsername, 0, 1);
-            this.tlpRegister.Controls.Add(this.txtUsername, 1, 1);
             this.tlpRegister.Controls.Add(this.lblRegister, 0, 0);
             this.tlpRegister.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpRegister.Location = new System.Drawing.Point(0, 0);
@@ -92,22 +90,13 @@ namespace Arkanoid
             this.lblRegister.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblRegister.Font = new System.Drawing.Font("Bauhaus 93", 26.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.lblRegister.ForeColor = System.Drawing.Color.White;
+            this.lblRegister.ForeColor = System.Drawing.Color.DarkRed;
             this.lblRegister.Location = new System.Drawing.Point(3, 0);
             this.lblRegister.Name = "lblRegister";
             this.lblRegister.Size = new System.Drawing.Size(813, 274);
             this.lblRegister.TabIndex = 5;
             this.lblRegister.Text = "agregar jugador";
             this.lblRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtUsername
-            // 
-            this.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtUsername.Location = new System.Drawing.Point(464, 456);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(299, 27);
-            this.txtUsername.TabIndex = 1;
             // 
             // btnRegister
             // 
@@ -138,7 +127,6 @@ namespace Arkanoid
             this.Name = "Register";
             this.Size = new System.Drawing.Size(819, 824);
             this.tlpRegister.ResumeLayout(false);
-            this.tlpRegister.PerformLayout();
             this.ResumeLayout(false);
         }
 
@@ -148,6 +136,5 @@ namespace Arkanoid
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.TableLayoutPanel tlpRegister;
         private System.Windows.Forms.Label lblUsername;
-        private System.Windows.Forms.TextBox txtUsername;
     }
 }
