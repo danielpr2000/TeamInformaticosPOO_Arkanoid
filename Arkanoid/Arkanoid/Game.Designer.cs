@@ -23,7 +23,7 @@ namespace Arkanoid
             base.Dispose(disposing);
         }
 
-        #region Component Designer generated code
+        #region Código generado por el Diseñador de Windows Forms
 
         /// <summary>
         /// Required method for Designer support - do not modify
@@ -32,6 +32,8 @@ namespace Arkanoid
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(Game));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
@@ -39,20 +41,32 @@ namespace Arkanoid
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(217, 499);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(299, 469);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(306, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(157, 42);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-          
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 2;
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // Game
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Game";
-            this.Size = new System.Drawing.Size(739, 587);
+            this.Size = new System.Drawing.Size(800, 562);
+            this.Load += new System.EventHandler(this.ControlArkanoid_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ControlArkanoid_KeyDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ControlArkanoid_MouseMove);
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
         }
