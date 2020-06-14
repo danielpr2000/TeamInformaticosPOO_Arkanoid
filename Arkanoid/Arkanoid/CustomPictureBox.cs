@@ -1,8 +1,11 @@
-﻿namespace Arkanoid
+﻿using System.Windows.Forms;
+
+namespace Arkanoid
 {
-    public class CustomPictureBox
+    public class CustomPictureBox : PictureBox
     {
-         public int Golpes { get; set; }
+      
+        public int Golpes { get; set; }
        
                public CustomPictureBox() : base() { }
            } 

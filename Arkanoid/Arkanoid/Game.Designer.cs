@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel;
-/*
+
 namespace Arkanoid
 {
     partial class Game
@@ -63,4 +63,3 @@ namespace Arkanoid
         private System.Windows.Forms.Timer timer1;
     }
 }
-*/

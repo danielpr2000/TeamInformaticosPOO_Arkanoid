@@ -48,13 +48,13 @@ namespace Arkanoid
 
         private void OnClickToMainMenu(object sender, EventArgs e)
         {
-            menu.Hide();
-            register.Show();
+            menu.Show();
+            register.Hide();
         }
         private void OnClickToRegister(object sender, EventArgs e)
         {
-            register.Hide();
-            menu.Show();
+            register.Show();
+            menu.Hide();
             
         }
     }

@@ -8,6 +8,7 @@ namespace Arkanoid
         public delegate void EventUserControlMainMenu(object sender, EventArgs e);
 
         public EventUserControlMainMenu OnClickbtnRegister;
+        public EventUserControlMainMenu OnClickbtnStart;
 
     public MainMenu()
         {
@@ -16,7 +17,10 @@ namespace Arkanoid
 
     private void btnStart_Click(object sender, EventArgs e)
     {
-       
+         if (OnClickbtnStart != null)
+         {
+             OnClickbtnStart(this, e);
+         }
     }
 
     private void btnExit_Click(object sender, EventArgs e)

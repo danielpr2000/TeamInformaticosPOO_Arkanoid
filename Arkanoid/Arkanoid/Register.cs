@@ -18,7 +18,7 @@ namespace Arkanoid
         private void btnRegister_Click(object sender, EventArgs e)
         {
              if (OnClickbtnRegister != null)
-                    {
+                   {
                         OnClickbtnRegister(this, e);
                     }
         }
