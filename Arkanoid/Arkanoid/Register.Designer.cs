@@ -33,39 +33,13 @@ namespace Arkanoid
         {
             System.ComponentModel.ComponentResourceManager resources =
                 new System.ComponentModel.ComponentResourceManager(typeof(Register));
-            this.btnRegister = new System.Windows.Forms.Button();
-            this.txtUsername = new System.Windows.Forms.TextBox();
             this.lblUsername = new System.Windows.Forms.Label();
             this.tlpRegister = new System.Windows.Forms.TableLayoutPanel();
             this.lblRegister = new System.Windows.Forms.Label();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.tlpRegister.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnRegister
-            // 
-            this.btnRegister.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnRegister.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnRegister.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.tlpRegister.SetColumnSpan(this.btnRegister, 2);
-            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegister.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnRegister.Location = new System.Drawing.Point(150, 529);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(416, 59);
-            this.btnRegister.TabIndex = 0;
-            this.btnRegister.Text = "Registrarse";
-            this.btnRegister.UseVisualStyleBackColor = false;
-            this.btnRegister.UseWaitCursor = true;
-            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
-            // 
-            // txtUsername
-            // 
-            this.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtUsername.Location = new System.Drawing.Point(406, 340);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(262, 23);
-            this.txtUsername.TabIndex = 1;
             // 
             // lblUsername
             // 
@@ -73,11 +47,11 @@ namespace Arkanoid
             this.lblUsername.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblUsername.ForeColor = System.Drawing.Color.White;
-            this.lblUsername.Location = new System.Drawing.Point(3, 205);
+            this.lblUsername.Location = new System.Drawing.Point(3, 274);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(352, 294);
+            this.lblUsername.Size = new System.Drawing.Size(403, 392);
             this.lblUsername.TabIndex = 3;
-            this.lblUsername.Text = "Usuario";
+            this.lblUsername.Text = "jugador ";
             this.lblUsername.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tlpRegister
@@ -97,6 +71,7 @@ namespace Arkanoid
             this.tlpRegister.Controls.Add(this.lblRegister, 0, 0);
             this.tlpRegister.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpRegister.Location = new System.Drawing.Point(0, 0);
+            this.tlpRegister.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tlpRegister.Name = "tlpRegister";
             this.tlpRegister.RowCount = 3;
             this.tlpRegister.RowStyles.Add(
@@ -106,8 +81,8 @@ namespace Arkanoid
             this.tlpRegister.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.0991F));
             this.tlpRegister.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlpRegister.Size = new System.Drawing.Size(717, 618);
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tlpRegister.Size = new System.Drawing.Size(819, 824);
             this.tlpRegister.TabIndex = 5;
             // 
             // lblRegister
@@ -120,19 +95,48 @@ namespace Arkanoid
             this.lblRegister.ForeColor = System.Drawing.Color.White;
             this.lblRegister.Location = new System.Drawing.Point(3, 0);
             this.lblRegister.Name = "lblRegister";
-            this.lblRegister.Size = new System.Drawing.Size(711, 205);
+            this.lblRegister.Size = new System.Drawing.Size(813, 274);
             this.lblRegister.TabIndex = 5;
-            this.lblRegister.Text = "Registrarse";
+            this.lblRegister.Text = "agregar jugador";
             this.lblRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtUsername.Location = new System.Drawing.Point(464, 456);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(299, 27);
+            this.txtUsername.TabIndex = 1;
+            // 
+            // btnRegister
+            // 
+            this.btnRegister.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnRegister.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnRegister.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.tlpRegister.SetColumnSpan(this.btnRegister, 2);
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegister.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnRegister.Location = new System.Drawing.Point(172, 705);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(475, 79);
+            this.btnRegister.TabIndex = 0;
+            this.btnRegister.Text = "Registrar jugador";
+            this.btnRegister.UseVisualStyleBackColor = false;
+            this.btnRegister.UseWaitCursor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // Register
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.tlpRegister);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Register";
-            this.Size = new System.Drawing.Size(717, 618);
+            this.Size = new System.Drawing.Size(819, 824);
             this.tlpRegister.ResumeLayout(false);
             this.tlpRegister.PerformLayout();
             this.ResumeLayout(false);
