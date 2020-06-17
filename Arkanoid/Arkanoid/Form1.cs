@@ -7,6 +7,7 @@ namespace Arkanoid
     public partial class Form1 : Form
     {
         private Game game;
+        private Top10 top;
 
         public Form1()
         {
@@ -36,8 +37,10 @@ namespace Arkanoid
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Instanciando los user control
             game = new Game();
-            
+            top = new  Top10();
+        
             game.Dock  = DockStyle.Fill;
 
             game.Width = Width;
@@ -53,12 +56,22 @@ namespace Arkanoid
                     game.Hide();
                     tableLayoutPanel1.Show();
                         };
+             
+            //Agregando el user del top 10
+             top.Dock = DockStyle.Fill;
+             
+            top.Width = Width;
+            top.Height = Height;
+                       
 
         }
 
-        private void btnTop10_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("En proceso");
+        private void BtnTop10Click(object sender, EventArgs e){
+        
+          tableLayoutPanel1.Hide();
+          Controls.Add(top);
+
+         
         }
     }
 }

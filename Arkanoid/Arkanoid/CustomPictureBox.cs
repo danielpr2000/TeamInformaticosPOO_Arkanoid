@@ -3,7 +3,7 @@ namespace Arkanoid
 {
     public class CustomPictureBox : PictureBox
     {
-         public int strikes { get; set; }
+         public int Hits { get; set; }
         
          public CustomPictureBox() : base() { }
   

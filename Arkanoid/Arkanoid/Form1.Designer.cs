@@ -58,7 +58,7 @@
             this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(
@@ -69,7 +69,7 @@
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1064, 859);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(931, 644);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // BtnStart
@@ -83,10 +83,10 @@
             this.BtnStart.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.BtnStart.ForeColor = System.Drawing.Color.Black;
-            this.BtnStart.Location = new System.Drawing.Point(341, 275);
-            this.BtnStart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BtnStart.Location = new System.Drawing.Point(298, 207);
+            this.BtnStart.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BtnStart.Name = "BtnStart";
-            this.BtnStart.Size = new System.Drawing.Size(382, 92);
+            this.BtnStart.Size = new System.Drawing.Size(334, 69);
             this.BtnStart.TabIndex = 0;
             this.BtnStart.UseVisualStyleBackColor = false;
             this.BtnStart.Click += new System.EventHandler(this.BtnStart_Click);
@@ -101,14 +101,14 @@
             this.btnTop10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTop10.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnTop10.Location = new System.Drawing.Point(336, 485);
-            this.btnTop10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnTop10.Location = new System.Drawing.Point(294, 365);
+            this.btnTop10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnTop10.Name = "btnTop10";
             this.btnTop10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnTop10.Size = new System.Drawing.Size(391, 99);
+            this.btnTop10.Size = new System.Drawing.Size(342, 74);
             this.btnTop10.TabIndex = 1;
             this.btnTop10.UseVisualStyleBackColor = false;
-            this.btnTop10.Click += new System.EventHandler(this.btnTop10_Click);
+            this.btnTop10.Click += new System.EventHandler(this.BtnTop10Click);
             // 
             // BtnExit
             // 
@@ -119,10 +119,10 @@
             this.BtnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnExit.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.BtnExit.Location = new System.Drawing.Point(339, 696);
-            this.BtnExit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BtnExit.Location = new System.Drawing.Point(296, 523);
+            this.BtnExit.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BtnExit.Name = "BtnExit";
-            this.BtnExit.Size = new System.Drawing.Size(386, 108);
+            this.BtnExit.Size = new System.Drawing.Size(338, 81);
             this.BtnExit.TabIndex = 2;
             this.BtnExit.UseVisualStyleBackColor = false;
             this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
@@ -133,22 +133,22 @@
                 ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1058, 210);
+            this.pictureBox1.Size = new System.Drawing.Size(927, 159);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1064, 859);
+            this.ClientSize = new System.Drawing.Size(931, 644);
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Form1";
             this.Text = "Game";
             this.Load += new System.EventHandler(this.Form1_Load);

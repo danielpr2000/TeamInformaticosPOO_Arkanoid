@@ -46,7 +46,6 @@ C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\b
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\bin\Debug\System.ValueTuple.xml
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe.config
-C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.MainMenu.resources
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Register.resources
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.CopyComplete
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Game.resources
@@ -118,3 +117,4 @@ C:\Users\HP\OneDrive\Escritorio\Nueva carpeta\Arkanoid\Arkanoid\obj\Debug\Arkano
 C:\Users\HP\OneDrive\Escritorio\Nueva carpeta\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.CopyComplete
 C:\Users\HP\OneDrive\Escritorio\Nueva carpeta\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe
 C:\Users\HP\OneDrive\Escritorio\Nueva carpeta\Arkanoid\Arkanoid\obj\Debug\Arkanoid.pdb
+C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Top10.resources

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\HP\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\HP\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Arkanoid.-1777002651.00" t="ExcludeRecursive" />
-    <e p="C:\Users\HP\OneDrive\Escritorio\Nueva carpeta\Arkanoid" t="IncludeFlat">
+    <e p="C:\Users\FamiliaBarrera\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\FamiliaBarrera\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Arkanoid.1513814782.00" t="ExcludeRecursive" />
+    <e p="C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid" t="IncludeFlat">
       <e p="Arkanoid" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="Arkanoid.csproj" t="IncludeRecursive" />
@@ -17,7 +17,6 @@
         <e p="Game.cs" t="Include" />
         <e p="Game.Designer.cs" t="Include" />
         <e p="Game.resx" t="Include" />
-        <e p="InfoGame.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Program.cs" t="Include" />
@@ -49,6 +48,9 @@
         <e p="Register.cs" t="Include" />
         <e p="Register.Designer.cs" t="Include" />
         <e p="Register.resx" t="Include" />
+        <e p="Top10.cs" t="Include" />
+        <e p="Top10.Designer.cs" t="Include" />
+        <e p="Top10.resx" t="Include" />
       </e>
       <e p="Arkanoid.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

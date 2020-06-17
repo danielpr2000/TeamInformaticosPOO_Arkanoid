@@ -62,9 +62,9 @@ namespace Arkanoid
                             cpb[i, j] = new CustomPictureBox();
         
                             if (i == 0)
-                                cpb[i, j].strikes = 2;
+                                cpb[i, j].Hits = 2;
                             else
-                                cpb[i, j].strikes = 1;
+                                cpb[i, j].Hits = 1;
         
                             cpb[i, j].Height = pbHeight;
                             cpb[i, j].Width = pbWidth;
@@ -144,9 +144,9 @@ namespace Arkanoid
                         {
                             if (cpb[i, j] != null && ball.Bounds.IntersectsWith(cpb[i, j].Bounds))
                             {
-                                cpb[i, j].strikes--;
+                                cpb[i, j].Hits--;
         
-                                if (cpb[i, j].strikes == 0)
+                                if (cpb[i, j].Hits == 0)
                                 {
                                     Controls.Remove(cpb[i, j]);
                                     cpb[i, j] = null;
