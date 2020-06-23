@@ -1,4 +1,4 @@
-﻿namespace Arkanoid
+﻿namespace Arkanoid.Controlador
 {
     public static class DataGame
     {

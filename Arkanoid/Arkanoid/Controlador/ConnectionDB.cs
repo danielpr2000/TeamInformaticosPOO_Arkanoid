@@ -1,12 +1,12 @@
 ﻿using System.Data;
 using Npgsql;
 
-namespace Arkanoid
+namespace Arkanoid.Controlador
 {
     public static class ConnectionDB
     {
         private static string host = "127.0.0.1", database = "Arkanoid", userId = "postgres", 
-            password = "danielpr";
+            password = "Daniel0356#";
         
         private static string Connection =
             $"Server = {host}; Port = 5432; User Id = {userId}; Password = {password}; Database = {database};";
