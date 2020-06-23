@@ -75,7 +75,6 @@ C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\b
 C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\bin\Debug\System.ValueTuple.xml
 C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csprojAssemblyReference.cache
 C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe.config
-C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Form1.resources
 C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Properties.Resources.resources
 C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Register.resources
 C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.GenerateResource.cache
@@ -118,3 +117,5 @@ C:\Users\HP\OneDrive\Escritorio\Nueva carpeta\Arkanoid\Arkanoid\obj\Debug\Arkano
 C:\Users\HP\OneDrive\Escritorio\Nueva carpeta\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe
 C:\Users\HP\OneDrive\Escritorio\Nueva carpeta\Arkanoid\Arkanoid\obj\Debug\Arkanoid.pdb
 C:\Users\FamiliaBarrera\Desktop\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Top10.resources
+C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Top10.resources
+C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid\Arkanoid\Arkanoid\obj\Debug\Arkanoid.FormMenu.resources

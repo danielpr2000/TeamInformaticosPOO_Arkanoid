@@ -7,16 +7,15 @@
       <e p="App.config" t="Include" />
       <e p="Arkanoid.csproj" t="IncludeRecursive" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="ConnectionDB.cs" t="Include" />
-      <e p="CustomPictureBox.cs" t="Include" />
-      <e p="DataGame.cs" t="Include" />
-      <e p="Form1.cs" t="Include" />
-      <e p="Form1.Designer.cs" t="Include" />
-      <e p="Form1.resx" t="Include" />
-      <e p="Game.cs" t="Include" />
-      <e p="Game.Designer.cs" t="Include" />
-      <e p="Game.resx" t="Include" />
-      <e p="InfoGame.cs" t="Include" />
+      <e p="Controlador" t="Include">
+        <e p="ConnectionDB.cs" t="Include" />
+        <e p="DataGame.cs" t="Include" />
+        <e p="PlayerData.cs" t="Include" />
+      </e>
+      <e p="Modelo" t="Include">
+        <e p="CustomPictureBox.cs" t="Include" />
+        <e p="Player.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="packages.config" t="Include" />
@@ -46,9 +45,20 @@
         <e p="Settings.Designer.cs" t="Include" />
         <e p="Settings.settings" t="Include" />
       </e>
-      <e p="Register.cs" t="Include" />
-      <e p="Register.Designer.cs" t="Include" />
-      <e p="Register.resx" t="Include" />
+      <e p="Vista" t="Include">
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="FormMenu.cs" t="Include" />
+        <e p="Game.cs" t="Include" />
+        <e p="Game.Designer.cs" t="Include" />
+        <e p="Game.resx" t="Include" />
+        <e p="Register.cs" t="Include" />
+        <e p="Register.Designer.cs" t="Include" />
+        <e p="Register.resx" t="Include" />
+        <e p="Top10.cs" t="Include" />
+        <e p="Top10.Designer.cs" t="Include" />
+        <e p="Top10.resx" t="Include" />
+      </e>
     </e>
   </component>
 </project>
