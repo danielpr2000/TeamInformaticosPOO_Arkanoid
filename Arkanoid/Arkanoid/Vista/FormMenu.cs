@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using Arkanoid.Controlador;
+using Arkanoid.Modelo;
+using Arkanoid.Vista;
 
 namespace Arkanoid
 {
@@ -10,6 +13,7 @@ namespace Arkanoid
         private Top10 top;
         private Player current;
         private Register register;
+        private UserControl uc;
 
         public FormMenu()
         {
@@ -24,10 +28,11 @@ namespace Arkanoid
 
         private void BtnStart_Click(object sender, EventArgs e)
         {
-
-             register.Dock = DockStyle.Fill;
-             register.Width = Width;
-             register.Height = Height;
+            uc = new Register();
+            
+             uc.Dock = DockStyle.Fill;
+             uc.Width = Width;
+             uc.Height = Height;
              
              tableLayoutPanel1.Hide();
   

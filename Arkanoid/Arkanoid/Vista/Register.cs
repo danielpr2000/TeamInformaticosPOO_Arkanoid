@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Arkanoid
+namespace Arkanoid.Vista
 {
     
     public partial class Register : UserControl

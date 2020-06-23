@@ -90,6 +90,8 @@
     <ItemGroup>
         <Compile Include="Controlador\ConnectionDB.cs" />
         <Compile Include="Controlador\DataGame.cs" />
+        <Compile Include="Controlador\EmptyNicknameException.cs" />
+        <Compile Include="Controlador\ExceededMaxCharactersException.cs" />
         <Compile Include="Controlador\PlayerData.cs" />
         <Compile Include="Modelo\CustomPictureBox.cs" />
         <Compile Include="Modelo\Player.cs" />
@@ -100,6 +102,12 @@
         </Compile>
         <Compile Include="Vista\Form1.Designer.cs">
           <DependentUpon>FormMenu.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Vista\FormRegister.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Vista\FormRegister.Designer.cs">
+          <DependentUpon>FormRegister.cs</DependentUpon>
         </Compile>
         <Compile Include="Vista\Game.cs">
           <SubType>UserControl</SubType>
@@ -130,6 +138,9 @@
         </Compile>
         <EmbeddedResource Include="Vista\Form1.resx">
           <DependentUpon>FormMenu.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Vista\FormRegister.resx">
+          <DependentUpon>FormRegister.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Vista\Game.resx">
           <DependentUpon>Game.cs</DependentUpon>

@@ -1,5 +1,6 @@
 ﻿using System.Windows.Forms;
-namespace Arkanoid
+
+namespace Arkanoid.Modelo
 {
     public class CustomPictureBox : PictureBox
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Arkanoid
+namespace Arkanoid.Vista
 {
     partial class Top10
     {
@@ -31,8 +31,7 @@ namespace Arkanoid
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources =
-                new System.ComponentModel.ComponentResourceManager(typeof(Top10));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Top10));
             this.lbl1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -41,8 +40,7 @@ namespace Arkanoid
             // 
             this.lbl1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbl1.BackColor = System.Drawing.Color.Transparent;
-            this.lbl1.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl1.ForeColor = System.Drawing.Color.White;
             this.lbl1.Location = new System.Drawing.Point(283, -1);
             this.lbl1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
@@ -56,36 +54,33 @@ namespace Arkanoid
             // 
             this.button1.Location = new System.Drawing.Point(344, 681);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(472, 45);
+            this.button1.Size = new System.Drawing.Size(282, 45);
             this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
+            this.button1.Text = "Regresar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Top10
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (29)))), ((int) (((byte) (126)))),
-                ((int) (((byte) (222)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (29)))), ((int) (((byte) (126)))), ((int) (((byte) (222)))));
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl1);
-            this.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "Top10";
             this.Size = new System.Drawing.Size(1175, 822);
-            this.Load += new System.EventHandler(this.Top10_Load);
             this.ResumeLayout(false);
         }
 
-        #endregion
-
-        private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbl1;
+
+        #endregion
     }
 }
