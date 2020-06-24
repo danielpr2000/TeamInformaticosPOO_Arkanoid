@@ -77,9 +77,9 @@ namespace Arkanoid
             this.PerformLayout();
         }
 
-        #endregion
-
-        private System.Windows.Forms.TextBox TxtNick;
         private System.Windows.Forms.Button BtnRegister;
+        private System.Windows.Forms.TextBox TxtNick;
+
+        #endregion
     }
 }

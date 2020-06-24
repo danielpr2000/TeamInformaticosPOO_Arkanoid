@@ -24,13 +24,13 @@ namespace Arkanoid
 
         public static void NewScore(int idPlayer, int sc)
         {
-            ConnectionDB.ExecuteNonQuery("INSERT INTO  SCORE(IdPlayer, score) VALUES ({idPlayer},{score})");
-        }
+            ConnectionDB.ExecuteNonQuery($"INSERT INTO  SCORE(IdPlayer, score) VALUES ({idPlayer},{sc})");
+        }//++++++
 
         public static List<Player> PlayersTop()
         {
             var topPlayers = new List<Player>();
-            var dt = ConnectionDB.ExecuteQuery("SELECT pl.nickname, sc score FROM PLAYER pl, SCORE sc" +
+            var dt = ConnectionDB.ExecuteQuery("SELECT pl.nickname, sc score FROM PLAYER pl, SCORES sc" +
                                                "WHERE pl.IdPlayer = sc.IdPlayer ORDER BY sc.score DESC LIMIT 10");
 
             foreach (DataRow dr  in dt.Rows)

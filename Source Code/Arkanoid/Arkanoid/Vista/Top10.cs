@@ -58,16 +58,14 @@ namespace Arkanoid
             }
         }
 
-        private void BtnMenu_Click(object sender, EventArgs e)
-        {
-        }
-
+      
         private void button1_Click(object sender, EventArgs e)
         {
             Top10 top10 = new Top10();
             FormMenu menu = new FormMenu();
             top10.Hide();
            menu.Show();
+           
         }
     }
     }

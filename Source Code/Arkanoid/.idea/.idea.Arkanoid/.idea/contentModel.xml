@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\HP\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\HP\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Arkanoid.-1515153900.00" t="ExcludeRecursive" />
-    <e p="C:\Users\HP\OneDrive\Escritorio\QuieroHombre\Arkanoid" t="IncludeFlat">
+    <e p="C:\Users\danie\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\danie\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_Arkanoid.1578517341.00" t="ExcludeRecursive" />
+    <e p="C:\Users\danie\Downloads\TeamInformaticosPOO_Arkanoid-master\Source Code\Arkanoid" t="IncludeFlat">
       <e p="Arkanoid" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="Arkanoid.csproj" t="IncludeRecursive" />
@@ -11,7 +11,12 @@
         <e p="Controlador" t="Include">
           <e p="ConnectionDB.cs" t="Include" />
           <e p="DataGame.cs" t="Include" />
+          <e p="EmptyNicknameException.cs" t="Include" />
+          <e p="ExceededMaxCharactersException.cs" t="Include" />
+          <e p="NoRemainingLifesException.cs" t="Include" />
+          <e p="OutOfBoundsException.cs" t="Include" />
           <e p="PlayerData.cs" t="Include" />
+          <e p="WrongKeyPressedException.cs" t="Include" />
         </e>
         <e p="Modelo" t="Include">
           <e p="CustomPictureBox.cs" t="Include" />
@@ -49,12 +54,12 @@
           <e p="Form1.Designer.cs" t="Include" />
           <e p="Form1.resx" t="Include" />
           <e p="FormMenu.cs" t="Include" />
+          <e p="FRegister.cs" t="Include" />
+          <e p="FRegister.Designer.cs" t="Include" />
+          <e p="FRegister.resx" t="Include" />
           <e p="Game.cs" t="Include" />
           <e p="Game.Designer.cs" t="Include" />
           <e p="Game.resx" t="Include" />
-          <e p="Register.cs" t="Include" />
-          <e p="Register.Designer.cs" t="Include" />
-          <e p="Register.resx" t="Include" />
           <e p="Top10.cs" t="Include" />
           <e p="Top10.Designer.cs" t="Include" />
           <e p="Top10.resx" t="Include" />

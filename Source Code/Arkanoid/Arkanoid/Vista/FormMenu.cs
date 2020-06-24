@@ -21,8 +21,50 @@ namespace Arkanoid
 
         }
 
+        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //Instanciando los user control
+            game = new Game();
+            top = new Top10();
+
+            game.Dock = DockStyle.Fill;
+            top.Dock = DockStyle.Fill;
+            
+            game.Width = Width;
+            game.Height = Height;
+
+        }
+
+
+        
         private void BtnStart_Click(object sender, EventArgs e)
         {
+            
+            FRegister fr = new FRegister();
+
+            fr.gn = (string nick) =>
+            {
+                if (PlayerData.CreatePlayer(nick))
+                {
+                    MessageBox.Show($"Bienvenido nuevamenete {nick}");
+                }
+                else
+                {
+                    MessageBox.Show($"Gracias por registrarte {nick}");
+                }
+
+                current = new Player(nick, 0);
+
+                fr.Dispose();
+            };
+
+            fr.Show();
+
+            //Ricardo
+            Controls.Add(game);
+            
+            // seteando propiedades
             game = new Game()
             {
                 Dock = DockStyle.Fill,
@@ -30,6 +72,10 @@ namespace Arkanoid
                 Width = Width,
                 Height = Height
             };
+            
+            // seteando 
+            
+            
             DataGame.InitializeGame();
             game.FinishedGame = () =>
             {
@@ -52,27 +98,7 @@ namespace Arkanoid
 
             tableLayoutPanel1.Hide();
 
-            FRegister fr = new FRegister();
-
-            fr.gn = (string nick) =>
-            {
-                if (PlayerData.CreatePlayer(nick))
-                {
-                    MessageBox.Show($"Bienvenido nuevamenete {nick}");
-                }
-                else
-                {
-                    MessageBox.Show($"Gracias por registrarte {nick}");
-                }
-
-                current = new Player(nick, 0);
-
-                fr.Dispose();
-            };
-
-            fr.Show();
-
-            Controls.Add(game);
+           
         }
             
         
@@ -86,22 +112,7 @@ namespace Arkanoid
             if (result == DialogResult.Yes)
                 Application.Exit();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            //Instanciando los user control
-            game = new Game();
-            top = new Top10();
-
-            game.Dock = DockStyle.Fill;
-
-            game.Width = Width;
-            game.Height = Height;
-
-        }
-
-
-
+        
 
         private void BtnTop10Click(object sender, EventArgs e){
             tableLayoutPanel1.Hide();

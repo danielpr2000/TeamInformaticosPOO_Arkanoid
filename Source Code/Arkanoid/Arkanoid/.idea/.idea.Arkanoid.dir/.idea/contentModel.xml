@@ -3,12 +3,11 @@
   <component name="ContentModelStore">
     <e p="C:\Users\HP\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\HP\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.01" t="ExcludeRecursive" />
-    <e p="C:\Users\HP\OneDrive\Escritorio\QuieroHombre\Arkanoid\Arkanoid" t="IncludeRecursive">
+    <e p="C:\Users\HP\OneDrive\Escritorio\TeamInformaticosPOO_Arkanoid-master\Source Code\Arkanoid\Arkanoid" t="IncludeRecursive">
       <e p="App.config" t="Include" />
       <e p="Arkanoid.csproj" t="IncludeRecursive" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controlador" t="Include">
-        <e p="ArgumentOutOfRangeException.cs" t="Include" />
         <e p="ConnectionDB.cs" t="Include" />
         <e p="DataGame.cs" t="Include" />
         <e p="EmptyNicknameException.cs" t="Include" />

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using Arkanoid.Controlador;
 
 namespace Arkanoid
 {
@@ -12,8 +13,7 @@ namespace Arkanoid
         private CustomPictureBox[,] cpb;
         private PictureBox ball;
 
-        //picture box + label
-        private PictureBox heart;
+        
         
         // para trabajar n picture box;
         private PictureBox[] lifes;
@@ -57,8 +57,11 @@ namespace Arkanoid
 
             ball = new PictureBox();
             ball.Width = ball.Height = 20;
+            
             ball.BackgroundImage = Image.FromFile("../../img/ball.png");
             ball.BackgroundImageLayout = ImageLayout.Stretch;
+            ball.BackColor = Color.Transparent;
+            ;
 
             ball.Top = pictureBox1.Top - ball.Height;
             ball.Left = pictureBox1.Left + (pictureBox1.Width / 2) - (ball.Width / 2);
@@ -113,7 +116,7 @@ namespace Arkanoid
                         //  no se como seria
                         // y ase ocmo pero umm esta complciado  yo no entiendo jaja
                          
-                    //:"v
+                    
 
                     if ((i == 4||i==0)&(j%2==0))
                     {
@@ -174,17 +177,59 @@ namespace Arkanoid
             if (!DataGame.StartGame)
                 return;
             DataGame.MadeTicks += 0.01;
-            BallMovement?.Invoke();
+            
+             try
+            {
+                BallMovement?.Invoke();
+            }
+            catch(OutOfBoundsException ex)
+            {
+                try
+                {
+                    DataGame.lifes--;
+                    DataGame.StartGame = false;
+                    timer1.Stop();
+
+                    RepositionElements();
+                    UpdateItems();
+
+                    if (DataGame.lifes == 0)
+                    {
+                        throw new NoRemainingLifesException("");
+                    }
+                }
+                catch (NoRemainingLifesException ex2)
+                {
+                    timer1.Stop();
+                    FinishedGame?.Invoke();
+                }
+            }
+            
+            
         }
 
         private void ControlArkanoid_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Space)
+            
+            try
             {
-                DataGame.StartGame = true;
-                timer1.Start();
+                if (!DataGame.StartGame)
+                {
+                    switch (e.KeyCode)
+                    {
+                        case Keys.Space:
+                            DataGame.StartGame = true;
+                            timer1.Start();
+                            break;
+                        default:
+                            throw new WrongKeyPressedException("Presione Space para iniciar el juego");
+                    }
+                }
             }
-
+            catch(WrongKeyPressedException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
                
         }
 
