@@ -1,13 +1,14 @@
 # TeamInformaticosPOO_Arkanoid
 ##Integrantes:
-##Ricardo Daniel Peña Rivera 00365918
-##Daniel Ernesto Morales Siguenza
-##Paula Daniela Zepeda Barrera 00062019
-##Fernando Adonay Rosa Cardoza
+Ricardo Daniel Peña Rivera 00365918
+Daniel Ernesto Morales Siguenza 00139419
+Paula Daniela Zepeda Barrera 00062019
+Fernando Adonay Rosa Cardoza 00022319
 
 ## IDE Rider 2019.3.4
 
 ##FAQ's
+
 **¿Como inicio el juego?**
 Al cargar el programa se mostrara el respectivo menú, al darle clic al botón iniciar juego podrá ver una ventana en la cual se le pedira su usuario para poder guardar registro de su puntaje y asi empezar a jugar
 **¿Cuales controles utilizo para jugar?**
