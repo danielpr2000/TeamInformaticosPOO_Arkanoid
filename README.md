@@ -1,15 +1,15 @@
 # TeamInformaticosPOO_Arkanoid
 
-##Integrantes:
+## Integrantes:
 
-Ricardo Daniel Peña Rivera 00365918
-Daniel Ernesto Morales Siguenza 00139419
-Paula Daniela Zepeda Barrera 00062019
-Fernando Adonay Rosa Cardoza 00022319
+* Ricardo Daniel Peña Rivera 00365918
+* Daniel Ernesto Morales Siguenza 00139419
+* Paula Daniela Zepeda Barrera 00062019
+* Fernando Adonay Rosa Cardoza 00022319
 
 ## IDE Rider 2019.3.4
 
-##FAQ's
+## FAQ's
 
 **¿Como inicio el juego?**
 Al cargar el programa se mostrara el respectivo menú, al darle clic al botón iniciar juego podrá ver una ventana en la cual se le pedira su usuario para poder guardar registro de su puntaje y asi empezar a jugar
@@ -32,5 +32,5 @@ Para ganar deberá romper todos los bloques antes de perder todas las vidas, ese
 **¿Como puedo salir?**
 En el menú principal podrá ver la opción de salir, al darle clic le preguntara a tráves de un cuadro de texto si esta seguro de que desea salir, al darle "si" la aplicación cerrará.
 
-##Trello
+## Trello
 https://trello.com/b/M35itpJW/pooproyectofinaljuego
